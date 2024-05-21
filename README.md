@@ -1,5 +1,5 @@
-We provide the code for reproducing the WideResNet, TST and V-TST results seen in Table 1 and Table 2 of "Decoupling Feature Extraction and Classification Layers for
-Calibrated Neural Networks". This document serves as a guideline for how to run the scripts.
+# Decoupling Feature Extraction and Classification Layers for Calibrated Neural Networks
+We provide the code for reproducing the WideResNet, TST and V-TST results seen in Table 1 and Table 2 of "Decoupling Feature Extraction and Classification Layers for Calibrated Neural Networks". This document serves as a guideline for how to run the scripts.
 
 To firstly train a base WRN 28-10 for a dataset, run the following command but replacing <DATASET> with CIFAR10, SVHN or CIFAR100:
 
