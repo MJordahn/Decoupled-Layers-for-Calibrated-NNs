@@ -49,7 +49,7 @@ python3 src/experiments/00_train_models.py \
     --dataset <DATASET>
 ```
 
-Should one wish to run the training of TST and V-TST architectures end-to-end, omit --pretrained_qyx and --freeze_qyx in the two commands related to TST and V-TST and change model_name to ETEVTST_\<DATASET\>_Z\<Z\> and ETETST_\<DATASET\>_Z\<Z\> to reflect it in saved checkpoints.
+Should one wish to run the training of TST and V-TST architectures end-to-end, omit --pretrained_qyx and --freeze_qyx in the two commands related to TST and V-TST and change model_name to ETEVTST\_\<DATASET\>\_Z\<Z\> and ETETST\_\<DATASET\>\_Z\<Z\> to reflect it in saved checkpoints.
 
 To evaluate the models for TST and WRN run (note that you must manually download CIFAR10C and CIFAR100C and place them as directed in the evaluation script):
 
