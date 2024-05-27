@@ -31,7 +31,7 @@ python3 src/experiments/00_train_models.py \
     --dataset <DATASET>
 ```
 
-where <DATASET> must be the same dataset the WRN provided in <PATH_TO_TRAINED_WRN> was trained on. 
+where \<DATASET\> must be the same dataset the WRN provided in <PATH_TO_TRAINED_WRN> was trained on. 
 <Z> is the latent dimension (for example 256), and <SEED> is a seed an integer (we run 0-9 in our experiments).
 
 To similarly train V-TST, run:
