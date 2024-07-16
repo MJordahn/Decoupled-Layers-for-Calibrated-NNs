@@ -1,5 +1,5 @@
 # Decoupling Feature Extraction and Classification Layers for Calibrated Neural Networks (Accepted at ICML 2024)
-We provide the code for reproducing the WideResNet, TST and V-TST results seen in Table 1 and Table 2 of "Decoupling Feature Extraction and Classification Layers for Calibrated Neural Networks". This document serves as a guideline for how to run the scripts. The paper can be found at: https://arxiv.org/abs/2405.01196.
+We provide the code for reproducing the WideResNet, TST and V-TST results seen in Table 1 and Table 2 of "Decoupling Feature Extraction and Classification Layers for Calibrated Neural Networks". This document serves as a guideline for how to run the scripts. The paper can be found at: https://openreview.net/pdf?id=F2Tegvyqlo.
 
 As a preliminary, you should create three folders in the repo directory named "data", "eval_path_files" and "experimental_results". You will need these later. 
 
