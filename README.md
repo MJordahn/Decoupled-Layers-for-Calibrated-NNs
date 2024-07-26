@@ -1,7 +1,7 @@
 # Decoupling Feature Extraction and Classification Layers for Calibrated Neural Networks (Accepted at ICML 2024)
 We provide the code for reproducing the WideResNet, TST and V-TST results seen in Table 1 and Table 2 of "Decoupling Feature Extraction and Classification Layers for Calibrated Neural Networks". This document serves as a guideline for how to run the scripts. The paper can be found at: https://openreview.net/pdf?id=F2Tegvyqlo.
 
-### OBS: THERE IS A MISTAKE IN ALGORITHM 1 (TST) ON THE POSTER FROM ICML AND THE PAPER - YOU SHOULD ALWAYS EARLY STOP BASED ON NEGATIVE LOG-LIKELIHOOD IN STAGE 2 
+### OBS: There is a mistake in algorithm 1 (TST) on the poster from ICML and the paper - you should always early stop based on negative log-likelihood on the validation set in stage 2. The code is correct and the experimental setup description in the appendix is correct as well.
 
 As a preliminary, you should create three folders in the repo directory named "data", "eval_path_files" and "experimental_results". You will need these later. 
 
