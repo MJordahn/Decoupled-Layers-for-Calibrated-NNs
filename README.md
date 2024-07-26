@@ -1,6 +1,8 @@
 # Decoupling Feature Extraction and Classification Layers for Calibrated Neural Networks (Accepted at ICML 2024)
 We provide the code for reproducing the WideResNet, TST and V-TST results seen in Table 1 and Table 2 of "Decoupling Feature Extraction and Classification Layers for Calibrated Neural Networks". This document serves as a guideline for how to run the scripts. The paper can be found at: https://openreview.net/pdf?id=F2Tegvyqlo.
 
+### OBS: THERE IS A MISTAKE IN ALGORITHM 1 (TST) ON THE POSTER FROM ICML AND THE PAPER - YOU SHOULD ALWAYS EARLY STOP BASED ON NEGATIVE LOG-LIKELIHOOD IN STAGE 2 
+
 As a preliminary, you should create three folders in the repo directory named "data", "eval_path_files" and "experimental_results". You will need these later. 
 
 To firstly train a base WRN 28-10 for a dataset, run the following command but replacing \<DATASET\> with CIFAR10, SVHN or CIFAR100:
